@@ -6,7 +6,7 @@ Debian系 もしくは Debian派生系のディストリビューションで、
 と入力するのを `pacup` として**大幅に短縮する**コマンドです.
 
 ## 「pacup」のインストール方法／アップデート方法
-<h2>方法1</h2>
+<h3>方法1</h3>
 ①[インストール用シェルスクリプト](https://dl.dropboxusercontent.com/s/2lutkal30bnq3rx/pacup-installer.sh?dl=1)を[ダウンロード](https://dl.dropboxusercontent.com/s/2lutkal30bnq3rx/pacup-installer.sh?dl=1)する
 
 ②以下のコマンドを実行してインストールする
@@ -14,7 +14,13 @@ Debian系 もしくは Debian派生系のディストリビューションで、
 cd ダウンロード
 sudo bash pacup-installer.sh
 ```
-<h2>方法2</h2>
+<h3>方法2</h3>
+①[.debパッケージ](http://dl.dropboxusercontent.com/s/)を[ダウンロード]()する
+②ダブルクリックでインストール、できない場合は
+```
+cd ダウンロード
+sudo dpkg -i pacup.deb
+```
 
 ## 詳細
 「**EtupOS**」の開発者である「**ペンえぬ**」さんが作ったオリジナルのアップデートコマンド「**pacup**」をもとに、「**桜咲ヒロ**」が、 ｢[**Flatpak**](https://flatpak.org)｣ と ｢[**Snap**](https://snapcraft.io)｣ のアップデート機能を追加し、「**シューゴ**」さんがコマンドの調整や一部機能の追加を行いました。
